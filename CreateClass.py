@@ -5,5 +5,5 @@ class Item:
     def calculate_price(self):
         pass
 
-item1= Item()
-item1.calculate_price()
+item1= Item("Dragon")
+print(f"Name: {item1.name}")
