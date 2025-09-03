@@ -11,3 +11,5 @@ class Item:
 item1= Item("Dragon", 1000, 3, True)
 print(f"Name: {item1.name} \nPrice: {item1.price} \nQuantity: {item1.quantity}\nNumpad: {item1.has_numpad}")
 print(f"Total: {item1.calculate_price()}")
+
+print(f"Class level attributes: \n{Item.__dict__}")
