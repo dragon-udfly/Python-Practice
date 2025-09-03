@@ -5,7 +5,8 @@ class Item:
         self.quantity= quantity
 
     def calculate_price(self):
-        pass
+        return self.price * self.quantity
 
 item1= Item("Dragon", 1000, 3)
 print(f"Name: {item1.name} \nPrice: {item1.price} \nQuantity: {item1.quantity}")
+print(f"Total: {item1.calculate_price()}")
