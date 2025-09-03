@@ -1,6 +1,6 @@
 class Item: 
-    def __init__(self):
-        print("I was just created.")
+    def __init__(self, name):
+        self.name= name
 
     def calculate_price(self):
         pass
