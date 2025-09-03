@@ -13,3 +13,4 @@ print(f"Name: {item1.name} \nPrice: {item1.price} \nQuantity: {item1.quantity}\n
 print(f"Total: {item1.calculate_price()}")
 
 print(f"Class level attributes: \n{Item.__dict__}")
+print(f"Instance level attributes: \n{item1.__dict__}")
