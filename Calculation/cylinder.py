@@ -3,12 +3,15 @@
 PI = 3.143
 
 def cylinder_area(diameter, height):
+    """Calculate Area of The Cylinder."""
     return ((PI * (diameter * diameter / 4)) + (2 * PI * (diameter / 2) * height))
 
 def cylinder_volume(diameter, height):
+    """Calculate Volume of The Cylinder."""
     return (PI * (diameter * diameter / 4) * height)
 
 def cylider_circumference(diameter):
+    """Calculate Circumference of The Cylinder"""
     return (PI * diameter)
 
 
