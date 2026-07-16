@@ -2,17 +2,17 @@ class Box:
     """Blueprint for 3D box"""
 
     def __init__(self, height = 0.0, width = 0.0, length = 0.0):
-        self.height = height 
-        self.width = width 
-        self.length = length
+        self.__height = height 
+        self.__width = width 
+        self.__length = length
 
     def box_area(self):
         """Calculate area of the box."""
-        return (4 * self.width * self.height)
+        return (6 * self.__width * self.__height)
     
     def box_volume(self):
         """Calculate volume of the box."""
-        return (self.width * self.height * self.length)
+        return (self.__width * self.__height * self.__length)
     
 
 # Creating Objects (instantiation)
