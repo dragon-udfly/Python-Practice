@@ -22,3 +22,11 @@ print(f"Cylinder Height: {cylinder_height}m")
 print(f"Cylinder Area: {cylinder_area}m^2")
 print(f"Cylinder Volume: {cylinder_volume}m^3")
 
+# Sphere 
+sphere_diameter = 32.2
+sphere_area = PI * (sphere_diameter * sphere_diameter / 4)
+sphere_volume = (4 * PI * (sphere_diameter / 2 * sphere_diameter / 2 * sphere_diameter / 2)) / 3
+print(f"Sphere Diameter: {sphere_diameter}m")
+print(f"Sphere Area: {sphere_area}m^2")
+print(f"Sphere Volue: {sphere_volume}m^3")
+
