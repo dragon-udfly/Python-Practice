@@ -9,3 +9,8 @@ print(f"Capitalized: {cap}")
 up = text.upper()
 
 print(f"UpperCase: {up}")
+
+# make sentence lower case
+low = text.lower()
+
+print(f"Lower: {low}")
