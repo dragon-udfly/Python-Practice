@@ -15,3 +15,8 @@ print(f"Sample: {text}\tisAlphabetical: {text.isalpha()}")
 # counting characters or substring 
 count = text.count("2")
 print(f"Sample: {text}\t Count of 2: {count}")
+
+# replace character of substring
+# return updated string
+replaced_text = text.replace("2", " ")
+print(f"Sample: {text}\tReplaced: {replaced_text}")
