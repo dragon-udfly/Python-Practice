@@ -7,3 +7,6 @@ substring_three = text[5:] # from 6 th character to end
 print(f"Substring: {substring_one}")
 print(f"Substring: {substring_two}")
 print(f"Substring: {substring_three}")
+
+substring_four = text[::2] # characters 2 after 2
+print(f"Substring: {substring_four}")
