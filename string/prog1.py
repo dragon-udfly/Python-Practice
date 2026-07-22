@@ -4,3 +4,8 @@ text = "this is snake."
 cap = text.capitalize()
 
 print(f"Capitalized: {cap}")
+
+# make sentence upper case
+up = text.upper()
+
+print(f"UpperCase: {up}")
