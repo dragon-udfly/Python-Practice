@@ -11,3 +11,7 @@ word = "typewriter"
 # string only have alphabetical characters.
 print(f"Sample: {word}\tisAlphabetical: {word.isalpha()}")
 print(f"Sample: {text}\tisAlphabetical: {text.isalpha()}")
+
+# counting characters or substring 
+count = text.count("2")
+print(f"Sample: {text}\t Count of 2: {count}")
