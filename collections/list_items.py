@@ -11,6 +11,8 @@ fruits.append("berry") # add item at the end
 
 fruits.remove("banana") # removing item
 
+fruits.insert(0, "coconut") # inserting element at given index
+
 if "orange" in fruits:
     print("Orange exists.")
 
