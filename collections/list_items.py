@@ -6,6 +6,9 @@ print(f"Item: {fruits[3]}")
 
 print(f"Length: {len(fruits)}")
 
+fruits[4] = "pineapple" # update item
+fruits.append("berry") # add item at the end
+
 if "orange" in fruits:
     print("Orange exists.")
 
