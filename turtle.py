@@ -17,6 +17,7 @@ class Turtle:
         print(f"Shape: {self.letters.shape}")
 
 
-t1 = Turtle() 
-t1.printDimension()
-t1.printShape()
+if __name__ == "__main__": 
+    t1 = Turtle() 
+    t1.printDimension()
+    t1.printShape()
