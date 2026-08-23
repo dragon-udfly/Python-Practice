@@ -10,6 +10,10 @@ class Turtle:
         ])
         self.word = ""
     
+    def makeWord(self): 
+        self.word = self.letters[0, 0, 0] + self.letters[1, 0, 0] + self.letters[1, 1, 2]
+        return self.word
+    
     def printDimension(self): 
         print(f"Dimension: {self.letters.ndim}")
 
@@ -21,3 +25,5 @@ if __name__ == "__main__":
     t1 = Turtle() 
     t1.printDimension()
     t1.printShape()
+
+    print(f"Word: {t1.makeWord()}")
