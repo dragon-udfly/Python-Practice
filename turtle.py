@@ -9,6 +9,12 @@ class Turtle:
             [['N', 'U', 'T'], ['G', 'Q', 'O']]
         ])
         self.word = ""
+
+        self.numbers = np.array([
+            [[3, 3, 2], [2, 3, 0]], 
+            [[3, 6, 1], [1, 0, 2]], 
+            [[3, 5, 2], [4, 2, 5]]
+        ])
     
     def makeWord(self): 
         self.word = self.letters[0, 0, 0] + self.letters[1, 0, 0] + self.letters[1, 1, 2]
