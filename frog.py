@@ -34,3 +34,5 @@ arr2 = np.array([
 ])
 
 print(f"Depth: {arr2.shape[0]}, Rows: {arr2.shape[1]}, Columns: {arr2.shape[2]}")
+
+print(f"Element: {arr2[0][0][2]}")
